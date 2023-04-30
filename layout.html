@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Layout</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="total">
+    <header class="head">
+        <div class="navbar">
+            <div class="logo">
+                <p ><i class="fa-solid fa-suitcase-medical"></i>&nbsp;&nbsp;<span style="font-size: 125%;">Health</span></p>
+            </div>
+            <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                   <li><a href="#Doctor"> Doctor</a></li>
+                   <li><a href="#Services">Services</a></li>
+                   <li><a href="#Review">Review</a></li>
+                   <button class="button">CONTACT US</button>
+            </ul>
+
+        </div>
+        <div class="c1">
+                <h1 class="first">Search Doctor,Make An Appointment</h1>
+                <p class="second">Discover the best doctors,clinic & Hospital the city nearest to you.</p>
+        </div>
+        <div class="c2">
+            <div class="forms">
+                <p>(Only For Medical Treatment)</p><br>
+                <label for="idel">Treatment Inquiry For</label>&nbsp;
+                <input type="radio" id="self" name="idel">
+                <label for="self">Myself</label>&nbsp;
+                <input type="radio" id="some" name="idel">
+                <label for="some"> Someone</label>
+            </div>
+            <div class="forms1">
+                <label>Name</label><br>
+                <input type="text" placeholder="Patient Name">
+            </div>
+            <div class="forms2">
+                <label>Phone or Email</label><br>
+                <input type="text" placeholder="Phone Or Email">
+            </div>
+            <div class="forms3"><input type="submit" value="SUBMIT"></div>
+        </div>
+    </header>
+    <div class="menu1">
+        <div class="c3">
+            
+                 <label for="">Search</label><br><br>
+            <div class="def1">
+                 <input type="search" name="search" placeholder="Search"><i class='fas fa-search'></i>
+                </div><br>
+            <div class="def2">
+              <label for="country" placeholder="Bangaladesh">Country </label><br><br>
+                <select id="c" name="country">
+                    <option value="" disabled selected hidden>Bhangaladesh</option>
+                    <option value="af">Afghanistan</option>
+                    <option value="saab">Argentina</option>
+                    <option value="aus">Australia</option>
+                    <option value="bel">Belgium</option>
+                    <option value="Br">Brazil</option>
+                    <option value="ch">China</option>
+                    <option value="col">Colombia</option>
+                    <option value="den">Denmark</option>
+                    <option value="eg">Egypt</option>
+                    <option value="fr">France</option>
+                    <option value="ger">Germany</option>
+                    <option value="it">Italy</option>
+                    <option value="in">India</option>
+                    <option value="ma">Malaysia</option>
+                    <option value="pa">Pakistan</option>
+                    <option value="rus">Russia</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Macao">Macao</option>
+                    <option value="Swaziland">Swaziland</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Timor-leste">Timor-leste</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tokelau">Tokelau</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Viet Nam">Viet Nam</option>
+                </select><br><br>
+            </div>
+            <div class="def3">
+                <label for="state">District/State </label><br><br>
+                <select id="d" name="state">
+                    <option value="" disabled selected hidden> Select a State</option>
+                    <option value="AP">Andhra Pradesh</option>
+                    <option value="AR">Arunachal Pradesh</option>
+                    <option value="AS">Assam</option>
+                    <option value="BR">Bihar</option>
+                    <option value="CT">Chhattisgarh</option>
+                    <option value="GA">Gujarat</option>
+                    <option value="HR">Haryana</option>
+                    <option value="HP">Himachal Pradesh</option>
+                    <option value="JK">Jammu and Kashmir</option>
+                    <option value="GA">Goa</option>
+                    <option value="JH">Jharkhand</option>
+                    <option value="KA">Karnataka</option>
+                    <option value="KL">Kerala</option>
+                    <option value="MP">Madhya Pradesh</option>
+                    <option value="MH">Maharashtra</option>
+                    <option value="MN">Manipur</option>
+                    <option value="ML">Meghalaya</option>
+                    <option value="MZ">Mizoram</option>
+                    <option value="NL">Nagaland</option>
+                    <option value="OR">Odisha</option>
+                    <option value="PB">Punjab</option>
+                    <option value="RJ">Rajasthan</option>
+                    <option value="SK">Sikkim</option>
+                    <option value="TN">Tamil Nadu</option>
+                    <option value="TG">Telangana</option>
+                    <option value="TR">Tripura</option>
+                    <option value="UT">Uttarakhand</option>
+                    <option value="UP">Uttar Pradesh</option>
+                    <option value="WB">West Bengal</option>
+                    <option value="AN">Andaman and Nicobar Islands</option>
+                    <option value="CH">Chandigarh</option>
+                    <option value="DN">Dadra and Nagar Haveli</option>
+                    <option value="DD">Daman and Diu</option>
+                    <option value="DL">Delhi</option>
+                    <option value="LD">Lakshadweep</option>
+                    <option value="PY">Puducherry</option>
+                </select>
+            </div><br><br>
+                   <div class="def4">
+                        <label for="spec">Speciality</label><br><br>
+                        <input type="text" name="search" placeholder="Search">
+                        <div style="font-size:15px; font-weight: lighter;" class="my1"><br>
+                            <input type="checkbox" id="ve1" name="ve1" value="Accident">
+                            <label for="ve1"> Accident and emergency medicine</label><br>
+                            <input type="checkbox" id="ve2" name="ve2" value="Addiction">
+                            <label for="ve2"> Addiction Medicine</label><br>
+                            <input type="checkbox" id="ve3" name="ve3" value="Aerospace">
+                            <label for="ve3"> Aerospace medicine</label><br>
+                            <input type="checkbox" id="ve4" name="ve4" value="Allergy">
+                            <label for="ve4"> Allergy</label><br>
+                            <input type="checkbox" id="ve5" name="ve5" value="immunology">
+                            <label for="ve5"> Allergy and immunology</label><br>
+                            <input type="checkbox" id="ve6" name="ve6" value="Aneshthe">
+                            <label for="ve6"> Anesthesiology</label><br>
+                            <input type="checkbox" id="ve7" name="ve7" value="fever">
+                            <label for="ve7"> Fever Medicines</label><br>
+                            <input type="checkbox" id="ve8" name="ve8" value="cough">
+                            <label for="ve8"> Cough Syrups</label><br>
+                            <input type="checkbox" id="ve9" name="ve9" value="pain">
+                            <label for="ve9"> Pain Killers</label><br>
+                            <input type="checkbox" id="ve10" name="ve10" value="checkup">
+                            <label for="ve10"> For Checkup</label><br>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <div class="main1">
+        <div class="c4">
+                <div class="my" >
+                    <img style="border: 2px solid blue; " src="pexels-antoni-shkraba-6749777.jpg" alt="doctors">
+                    <h3>Elyssa Perry</h3>
+                    <P>Senior At Orthopedic </P> 
+                </div>
+                <div class="my">
+                    <img style="border: 2px solid red;"src="pexels-jrfotosgrand-fotografia-12660379.jpg" alt="Doctors">
+                    <h3>Misra Guptill</h3>
+                    <P>Senior At Orthopedic </P>
+                </div>
+                <div class="my">
+                    <img style="border: 2px solid green;"src="pexels-tran-nhu-tuan-14438787.jpg" alt="Doctors">
+                    <h3>Atchaya Agarval</h3>
+                    <P>Senior At Orthopedic </P>
+                </div>
+                <div class="my">
+                    <img style="border: 2px solid darkorange;"src="pexels-thirdman-5327580.jpg" alt="Doctors">
+                    <h3>Devika Sakshi</h3>
+                    <P>Senior At Orthopedic </P>
+                </div>
+                <div class="my">
+                    <img style="border: 2px solid darkmagenta;"src="pexels-tran-nhu-tuan-14438785.jpg" alt="Doctors">
+                    <h3>Hilary Mr</h3>
+                    <P>Senior At Orthopedic </P>
+                </div>
+                <div class="my">
+                    <img style="border: 2px solid darkcyan;"src="pexels-gustavo-fring-4173251.jpg" alt="Doctors">
+                    <h3>Lena Mariana</h3>
+                    <P>Senior At Orthopedic </P>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html> 
